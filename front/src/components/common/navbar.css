@@ -1,0 +1,22 @@
+
+  /* Default styles for the logo image */
+.navbar-brand img {
+    width: 65%;
+}
+
+/* Media query for screens with a maximum width of 1000 pixels */
+@media screen and (max-width: 600px) {
+  .navbar-brand img {
+      width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+      width: 170%;
+  }
+}
+@media (max-width: 400px) {
+  .hide-under-400 {
+    display: none;
+  }
+}
